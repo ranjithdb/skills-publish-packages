@@ -6,7 +6,6 @@
   In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
   Add your open source license, GitHub uses the MIT license.
 -->
-
 # Publish to GitHub Packages
 
 _Use GitHub Actions to publish your project to a Docker image._
@@ -18,7 +17,7 @@ _Use GitHub Actions to publish your project to a Docker image._
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
-
+<!--
 ## Step 4: Pull your image
 
 _Now things are running! :sparkles:_
@@ -77,7 +76,7 @@ If everything went well, :crossed_fingers: you should see `Login Succeeded` in y
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
-
+<!--
 ## Step 5: Run your image
 
 _Nicely done grabbing your Docker image! :relaxed:_
@@ -88,6 +87,7 @@ Let's trying running it.
 
 1. Find your image information by typing `docker image ls`.
    ![screenshot of output from Docker image ls command: lists docker images, REPOSITORY TAG and docker URL](https://i.imgur.com/UAwRXiq.png)<!-- This screenshot should be changed. -->
+<!--
 1. Use the following command to run a container from your image:
    ```bash
    docker run -dp 8080:80 --rm <YOUR_IMAGE_NAME:TAG>
@@ -98,11 +98,11 @@ Let's trying running it.
 1. If everything went well, you will see hash value as output on your screen.
 1. Optionally, you can open [localhost:8080](http://localhost:8080) to see the page you just created.
 1. _We can't automatically verify this step for you, so please continue on to the next step below!_
+
 <!--
   <<< Author notes: Finish >>>
   Review what we learned, ask for feedback, provide next steps.
 -->
-
 ## Finish
 
 _Congratulations friend, you've completed this course!_
